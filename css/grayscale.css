@@ -258,7 +258,9 @@
 }
 
 .btn-default:active {
+  border: 1px solid #f4531b;
   background-color: #f4531b !important;
+  box-shadow: 0;
 }
 
 /* -------
