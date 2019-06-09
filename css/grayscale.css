@@ -74,7 +74,7 @@
     border-bottom: 0.25rem solid transparent;
   }
   #mainNav.navbar-shrink .nav-link:hover {
-    color: #F46F1B;
+    color: #f4531b;
   }
   #mainNav.navbar-shrink .nav-link:active {
     color: #f4531b;
@@ -141,9 +141,8 @@
     width: 70px;
     height: 70px;
     margin-top: 15px;
-    padding: 7px 16px;
-    border: 2px solid #fff;
-    border-radius: 100%!important;
+    padding: 20px 20px;
+    border: 0;
     font-size: 40px;
     color: #fff;
     background: transparent;
@@ -155,8 +154,8 @@
 .btnrd-circle:hover,
 .btnrd-circle:focus {
     outline: 0;
-    color: #fff;
-    background: rgba(255, 255, 255, .1)
+    color: #f4531b;
+    background: rgba(255, 255, 255, 0)
 }
 
 .btnrd-circle i.animated {
@@ -218,17 +217,17 @@
 }
 
 .btnrd-default {
-    border: 1px solid #42DCA3;
-    color: #42DCA3;
+    border: 0;
+    color: #F46F1B;
     background-color: transparent
 }
 
 .btnrd-default:hover,
 .btnrd-default:focus {
-    border: 1px solid #42DCA3;
+    border: 0;
     outline: 0;
     color: #000;
-    background-color: #42DCA3
+    background-color: #f4531b
 }
 
 .btn {
@@ -256,6 +255,10 @@
     color: #000;
     color: rgba(0, 0, 0, 0.5);
     background-color: #F46F1B
+}
+
+.btn-default:active {
+  background-color: #f4531b !important;
 }
 
 /* -------
@@ -295,7 +298,7 @@
 }
 
 .about-section p {
-  margin-bottom: 5rem;
+  margin-bottom: 20rem;
 }
 
 .projects-section {
