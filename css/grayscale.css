@@ -142,14 +142,14 @@
     color: #F46F1B;
     background-color: transparent;
     border-radius: 100%;
-    padding: 1.25rem 1.25rem;
+    padding: 1.25rem;
 }
 
 .btn-circle:hover,
 .btn-circle:focus {
     border: 1px solid #F46F1B;
     outline: 0;
-    color: rgba(0, 0, 0, 0.1);
+    color: rgba(0, 0, 0, 0.5);
     background-color: #F46F1B;
 }
 
@@ -223,7 +223,7 @@
 .btn-default:focus {
     border: 1px solid #F46F1B;
     outline: 0;
-    color: rgba(0, 0, 0, 0.1);
+    color: rgba(0, 0, 0, 0.5);
     background-color: #F46F1B;
 }
 
