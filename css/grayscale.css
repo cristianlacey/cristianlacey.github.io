@@ -137,7 +137,8 @@
     font-weight: 400
 }
 
-.btn-circle {
+/*
+.btnrd-circle {
     width: 70px;
     height: 70px;
     margin-top: 15px;
@@ -166,6 +167,38 @@
 }
 
 .btnrd-circle:hover i.animated {
+    -webkit-animation-name: pulse;
+    -moz-animation-name: pulse;
+    -webkit-animation-duration: 1.5s;
+    -moz-animation-duration: 1.5s;
+    -webkit-animation-iteration-count: infinite;
+    -moz-animation-iteration-count: infinite;
+    -webkit-animation-timing-function: linear;
+    -moz-animation-timing-function: linear
+}*/
+
+.btn-circle {
+    border: 1px solid #F46F1B;
+    color: #F46F1B;
+    background-color: transparent;
+}
+
+.btn-circle:hover,
+.btn-circle:focus {
+    border: 1px solid #F46F1B;
+    outline: 0;
+    color: rgba(0, 0, 0, 0);
+    background-color: #F46F1B;
+}
+
+.btn-circle i.animated {
+    -webkit-transition-property: -webkit-transform;
+    -webkit-transition-duration: 1s;
+    -moz-transition-property: -moz-transform;
+    -moz-transition-duration: 1s
+}
+
+.btn-circle:hover i.animated {
     -webkit-animation-name: pulse;
     -moz-animation-name: pulse;
     -webkit-animation-duration: 1.5s;
@@ -206,29 +239,33 @@
     }
 }
 
+/*
 .btnrd {
     text-transform: uppercase;
     font-family: 'Varela Round';
+    letter-spacing: .15rem;
     font-weight: 400;
+    font-size: 80%;
+    padding: 1.25rem 2rem;
     -webkit-transition: all .3s ease-in-out;
     -moz-transition: all .3s ease-in-out;
     transition: all .3s ease-in-out;
-    border-radius: 0
+    border-radius: 100%;
 }
 
 .btnrd-default {
-    border: 0;
+    border: 1px solid #F46F1B;
     color: #F46F1B;
-    background-color: transparent
+    background-color: transparent;
 }
 
 .btnrd-default:hover,
 .btnrd-default:focus {
-    border: 0;
+    border: 1px solid #F46F1B;
     outline: 0;
-    color: #000;
-    background-color: #f4531b
-}
+    color: rgba(0, 0, 0, 0);
+    background-color: #F46F1B;
+}*/
 
 .btn {
     text-transform: uppercase;
@@ -245,16 +282,15 @@
 .btn-default {
     border: 1px solid #F46F1B;
     color: #F46F1B;
-    background-color: transparent
+    background-color: transparent;
 }
 
 .btn-default:hover,
 .btn-default:focus {
     border: 1px solid #F46F1B;
     outline: 0;
-    color: #000;
-    color: rgba(0, 0, 0, 0.5);
-    background-color: #F46F1B
+    color: rgba(0, 0, 0, 0);
+    background-color: #F46F1B;
 }
 
 .btn-default:active {
