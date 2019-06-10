@@ -141,7 +141,7 @@
     border: 1px solid #F46F1B;
     color: #F46F1B;
     background-color: transparent;
-    border-radius: 100%;
+    border-radius: 9999px;
     padding: 1.25rem;
 }
 
@@ -153,6 +153,13 @@
     background-color: #F46F1B;
 }
 
+.btn-circle:active {
+  border: 1px solid #f4531b;
+  background-color: #f4531b !important;
+  box-shadow: 0;
+}
+
+/*
 .btn-circle i.animated {
     -webkit-transition-property: -webkit-transform;
     -webkit-transition-duration: 1s;
@@ -200,6 +207,7 @@
         transform: scale(1)
     }
 }
+*/
 
 .btn {
     text-transform: uppercase;
